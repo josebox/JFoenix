@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="520.0" prefWidth="629.0" styleClass="degradado" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../../../../git/JFXsignupimage/sign%20up%20image/src/sample/nikhil-kumar-231465.jpg" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="426.0" prefWidth="340.0" style="-fx-background-color: rgba(250.0,250.0,250.0,0.4); -fx-background-radius: 30;" AnchorPane.bottomAnchor="79.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="50.0" />
+      <BorderPane layoutX="-3.0" layoutY="-4.0" prefHeight="566.0" prefWidth="502.0" AnchorPane.bottomAnchor="-7.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <GridPane alignment="CENTER" prefHeight="523.0" prefWidth="443.0" style="-fx-background-color: #b256d6aa;" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="41.0" prefWidth="93.0" styleClass="etiqueta" stylesheets="@../application/application.css" text="SIGN IN" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+                  <VBox alignment="CENTER" prefHeight="231.0" prefWidth="165.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <JFXTextField focusColor="#171717" labelFloat="true" prefHeight="41.0" prefWidth="194.0" promptText="Nombre" styleClass="nombre_contra" stylesheets="@../application/application.css">
+                           <VBox.margin>
+                              <Insets bottom="20.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <JFXPasswordField focusColor="#1c1d1e" labelFloat="true" prefHeight="41.0" prefWidth="383.0" promptText="Contraseña" styleClass="nombre_contra" stylesheets="@../application/application.css">
+                           <VBox.margin>
+                              <Insets bottom="20.0" />
+                           </VBox.margin></JFXPasswordField>
+                        <JFXButton prefHeight="36.0" prefWidth="202.0" style="-fx-background-color: #fff; -fx-background-radius: 10px; -fx-background-color: violet;" text="ABOUT US" textFill="#7d01ae">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </JFXButton>
+                        <JFXButton prefHeight="38.0" prefWidth="205.0" style="-fx-background-color: #fff; -fx-background-radius: 10px; -fx-background-color: violet;" text="SIGN IN" textFill="#7d01ae">
+                           <VBox.margin>
+                              <Insets bottom="10.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXButton>
+                     </children>
+                  </VBox>
+               </children>
+            </GridPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
